@@ -41,7 +41,7 @@ public class LibraryLogger {
         while (!(command.equals("quit"))) {
             command = UIController.getCommand(input).toLowerCase().trim();
             
-			switch (command) {
+            switch (command) {
                 case "quit": 
                     break;
 
