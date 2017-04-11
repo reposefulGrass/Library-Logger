@@ -24,20 +24,18 @@ import java.util.Scanner;
 
 public class LibraryLogger {
     public static void main (String... args) throws NoSuchMethodError {
-        // Input from the command line.
         Scanner input = new Scanner(System.in);
         String command = "";
 
         UIController.printLogo();
 
-        // Simply take any input.
+        // Take any input.
         //input.next(); <--- remove?
         input.nextLine();
         UIController.clearScreen();
 
         System.out.println("Type 'help' to see a list of commands.");
 
-        //command = UIController.getCommand(input).toLowerCase();
         while (!(command.equals("quit"))) {
             command = UIController.getCommand(input).toLowerCase().trim();
             
@@ -57,7 +55,7 @@ public class LibraryLogger {
                     try {
                         checkId();
                     } catch (FileNotFoundException error) {
-                        System.out.println("Could not find log.dat");
+                        System.out.println(error);
                     }
                     break;
 
