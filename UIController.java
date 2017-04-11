@@ -1,4 +1,13 @@
 
+/*
+|* Author -- Leigh Wingo                          
+|*                                                 
+|* Date -- 3/19/2017 (m/d/y)                       
+|*                                                  
+|* Purpose -- To support the LibraryLogger with a controller to the
+|*     console.
+*/
+
 /* A class to control the input and output of the Command Line. */
 class UIController {
     private static Console console = System.console();
