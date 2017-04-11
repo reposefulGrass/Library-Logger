@@ -16,8 +16,6 @@ class UIController {
         for (int i = 0; i < 100; i++) {
             System.out.println();
         }
-
-        System.out.println("\b");
     }
 
     public static void flushScreen () {
