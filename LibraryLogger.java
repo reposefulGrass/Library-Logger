@@ -1,5 +1,5 @@
 /*
-|* Author -- Leigh Wingo                          
+|* Author -- Corey Wingo                          
 |*                                                 
 |* Date -- 3/19/2017 (m/d/y)                       
 |*                                                
